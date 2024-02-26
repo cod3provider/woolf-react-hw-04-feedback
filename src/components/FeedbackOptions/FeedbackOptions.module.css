@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 4px 12px;
+  font-size: 20px;
+  /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial, sans-serif;*/
+  border-radius: 5px;
+  border: 1px solid #7e7e7e;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: box-shadow 350ms linear;
+}
+
+.button:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
+}
