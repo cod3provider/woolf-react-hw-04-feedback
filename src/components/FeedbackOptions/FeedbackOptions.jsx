@@ -1,15 +1,13 @@
 import s from './FeedbackOptions.module.css';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
-
   return (
     <ul className={s.list}>
       {options.map(option => (
-        <li>
+        <li key={option}>
           <button
             className={s.button}
-            type='button'
-            key={option}
+            type="button"
             name={option}
             onClick={() => onLeaveFeedback(option)}
           >
